@@ -12,6 +12,13 @@
 		DECB73111EFAD2F800A493B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECB730F1EFAD2F800A493B1 /* Main.storyboard */; };
 		DECB73131EFAD2F800A493B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECB73121EFAD2F800A493B1 /* Assets.xcassets */; };
 		DECB73161EFAD2F800A493B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECB73141EFAD2F800A493B1 /* LaunchScreen.storyboard */; };
+		DECB73211EFAD31E00A493B1 /* octopus.png in Resources */ = {isa = PBXBuildFile; fileRef = DECB731E1EFAD31E00A493B1 /* octopus.png */; };
+		DECB73221EFAD31E00A493B1 /* hook.png in Resources */ = {isa = PBXBuildFile; fileRef = DECB731F1EFAD31E00A493B1 /* hook.png */; };
+		DECB73231EFAD31E00A493B1 /* ocean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECB73201EFAD31E00A493B1 /* ocean.jpg */; };
+		DECB73251EFAD35700A493B1 /* Octopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECB73241EFAD35700A493B1 /* Octopus.swift */; };
+		DECB73281EFAD36E00A493B1 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DECB73261EFAD36E00A493B1 /* music.mp3 */; };
+		DECB73291EFAD36E00A493B1 /* nhac song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DECB73271EFAD36E00A493B1 /* nhac song.mp3 */; };
+		DECB732B1EFAD58000A493B1 /* Hook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECB732A1EFAD58000A493B1 /* Hook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		DECB73121EFAD2F800A493B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECB73151EFAD2F800A493B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECB73171EFAD2F800A493B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECB731E1EFAD31E00A493B1 /* octopus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octopus.png; sourceTree = "<group>"; };
+		DECB731F1EFAD31E00A493B1 /* hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook.png; sourceTree = "<group>"; };
+		DECB73201EFAD31E00A493B1 /* ocean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ocean.jpg; sourceTree = "<group>"; };
+		DECB73241EFAD35700A493B1 /* Octopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octopus.swift; sourceTree = "<group>"; };
+		DECB73261EFAD36E00A493B1 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		DECB73271EFAD36E00A493B1 /* nhac song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nhac song.mp3"; sourceTree = "<group>"; };
+		DECB732A1EFAD58000A493B1 /* Hook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +70,27 @@
 			children = (
 				DECB730B1EFAD2F800A493B1 /* AppDelegate.swift */,
 				DECB730D1EFAD2F800A493B1 /* ViewController.swift */,
+				DECB73241EFAD35700A493B1 /* Octopus.swift */,
+				DECB732A1EFAD58000A493B1 /* Hook.swift */,
 				DECB730F1EFAD2F800A493B1 /* Main.storyboard */,
 				DECB73121EFAD2F800A493B1 /* Assets.xcassets */,
 				DECB73141EFAD2F800A493B1 /* LaunchScreen.storyboard */,
 				DECB73171EFAD2F800A493B1 /* Info.plist */,
+				DECB731D1EFAD30000A493B1 /* Resource */,
 			);
 			path = "Fish Version 1.1";
+			sourceTree = "<group>";
+		};
+		DECB731D1EFAD30000A493B1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DECB73261EFAD36E00A493B1 /* music.mp3 */,
+				DECB73271EFAD36E00A493B1 /* nhac song.mp3 */,
+				DECB731E1EFAD31E00A493B1 /* octopus.png */,
+				DECB731F1EFAD31E00A493B1 /* hook.png */,
+				DECB73201EFAD31E00A493B1 /* ocean.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +152,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECB73221EFAD31E00A493B1 /* hook.png in Resources */,
 				DECB73161EFAD2F800A493B1 /* LaunchScreen.storyboard in Resources */,
 				DECB73131EFAD2F800A493B1 /* Assets.xcassets in Resources */,
+				DECB73211EFAD31E00A493B1 /* octopus.png in Resources */,
+				DECB73291EFAD36E00A493B1 /* nhac song.mp3 in Resources */,
+				DECB73231EFAD31E00A493B1 /* ocean.jpg in Resources */,
+				DECB73281EFAD36E00A493B1 /* music.mp3 in Resources */,
 				DECB73111EFAD2F800A493B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +172,8 @@
 			files = (
 				DECB730E1EFAD2F800A493B1 /* ViewController.swift in Sources */,
 				DECB730C1EFAD2F800A493B1 /* AppDelegate.swift in Sources */,
+				DECB732B1EFAD58000A493B1 /* Hook.swift in Sources */,
+				DECB73251EFAD35700A493B1 /* Octopus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
